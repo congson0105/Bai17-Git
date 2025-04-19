@@ -1,0 +1,14 @@
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(34, 90, 243);
+}
+h3 {
+  color: rgb(30, 166, 245);
+}
+
+input:checked ~ img {
+  transition: 1.5s;
+  opacity: 0;
+  visibility: hidden;
+}
